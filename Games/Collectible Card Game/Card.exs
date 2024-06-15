@@ -1,7 +1,4 @@
-defmodule Card do
-  defstruct name: "", type: "", power: 0
-
-  def create(name, type, power) do
-    %__MODULE__{name: name, type: type, power: power}
-  end
-end
+# Exemplo de cartas
+card1 = %Card{id: 1, name: "Guerreiro", rarity: "Comum", attack: 4, defense: 3}
+card2 = %Card{id: 2, name: "Mago", rarity: "Raro", attack: 6, defense: 1}
+card3 = %Card{id: 3, name: "Dragão", rarity: "Épico", attack: 8, defense: 5}
